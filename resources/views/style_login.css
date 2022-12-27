@@ -1,0 +1,72 @@
+@import url(https://fonts.googleapis.com/earlyaccess/cwtexyen.css );
+
+body {
+    background-color: #DCDDDF;
+    font-family: 'cwTeXYen';
+}
+
+h2 {
+    line-height: 50px;
+    text-align: center;
+    font-size: 35px;
+    color: #75809C;
+}
+
+
+.field {
+    border-color: white;
+    width: 180px;
+    height: 20px;
+}
+
+.field:focus {
+    outline-color: #BECBD3;
+}
+
+a:hover {
+    background-color: #BFC2CB;
+    color: white;
+}
+
+.word {
+    line-height: 50px;
+    color: #75809C;
+}
+
+.frame {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 3px solid #8E9BAE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 45vw;
+}
+
+.content {
+    font-size: 16px;
+}
+
+.minor {
+    line-height: 50px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.button {
+    position: relative;
+    background-color: #BFC2CB;
+    border-color: #BFC2CB;
+    width: 150px;
+    height: 30px;
+    left: 50%;
+    top: 20px;
+    transform: translate(-50%, -50%);
+}
+
+.button:hover {
+    background-color: white;
+}
